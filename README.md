@@ -1,4 +1,3 @@
-![80c6ed6e-d50e-4c5d-8a99-5fd246136b77](https://github.com/user-attachments/assets/25df2927-87c7-491e-9040-86dd3bb0402c)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,11 +16,6 @@
       background: #007bff;
       padding: 20px;
       text-align: center;
-    }
-    header img {
-      width: 100px;
-      height: auto;
-      margin-bottom: 10px;
     }
     header h1 {
       margin: 0;
@@ -45,22 +39,22 @@
       display: flex;
       flex-wrap: wrap;
       gap: 15px;
-      justify-content: center;
     }
     .player-card {
       background: #222;
       padding: 15px;
       border-radius: 10px;
-      width: 200px;
+      flex: 1 1 200px;
       text-align: center;
+      box-shadow: 0 0 10px #000;
     }
-    .schedule {
-      background: #222;
-      padding: 15px;
-      border-radius: 10px;
-      max-width: 400px;
-      margin: auto;
-      text-align: center;
+    .player-card h3 {
+      margin-bottom: 5px;
+      color: #00d9ff;
+    }
+    .player-card p {
+      margin: 4px 0;
+      font-size: 14px;
     }
     footer {
       background: #333;
@@ -73,7 +67,6 @@
 <body>
 
 <header>
-  <img src="hfc-logo.png" alt="HFC Logo" />
   <h1>HFC</h1>
   <p>Heroes Football Club</p>
 </header>
@@ -81,38 +74,72 @@
 <nav>
   <a href="#about">About</a>
   <a href="#players">Players</a>
-  <a href="#schedule">Schedule</a>
   <a href="#contact">Contact</a>
 </nav>
 
 <section id="about">
   <h2>About Us</h2>
-  <p>Welcome to HFC – a passionate football team where talent, teamwork, and spirit come together to make champions. Based in your hometown, we're more than just a club – we're a family!</p>
+  <p>HFC – Heroes Football Club – was founded by <strong>Humaid</strong> in 2024 with a mission to bring young talents together and build a team based on passion, discipline, and teamwork. Every player in our squad brings a unique attribute that makes HFC powerful on the pitch.</p>
 </section>
 
 <section id="players">
   <h2>Our Players</h2>
   <div class="players">
-    <div class="player-card"><h3>Kavith</h3><p>Striker</p></div>
-    <div class="player-card"><h3>Sharhan</h3><p>Striker</p></div>
-    <div class="player-card"><h3>Aazil</h3><p>Striker</p></div>
-    <div class="player-card"><h3>Humaid</h3><p>Midfielder</p></div>
-    <div class="player-card"><h3>Hussain</h3><p>Midfielder</p></div>
-    <div class="player-card"><h3>Benson</h3><p>Midfielder</p></div>
-    <div class="player-card"><h3>Shammas</h3><p>Defender</p></div>
-    <div class="player-card"><h3>Rudranch</h3><p>Defender</p></div>
-    <div class="player-card"><h3>Hassan</h3><p>Defender</p></div>
-    <div class="player-card"><h3>Oshal</h3><p>Defender</p></div>
-    <div class="player-card"><h3>Nuwair</h3><p>Goalkeeper</p></div>
-  </div>
-</section>
-
-<section id="schedule">
-  <h2>Upcoming Matches</h2>
-  <div class="schedule">
-    <p><strong>Mavrik FC vs HFC</strong></p>
-    <p><em>Date: Coming Soon</em></p>
-    <p>Location: TBD</p>
+    <div class="player-card">
+      <h3>Kavith</h3>
+      <p>Position: Striker</p>
+      <p>Known for: Skills</p>
+    </div>
+    <div class="player-card">
+      <h3>Sharhan</h3>
+      <p>Position: Striker</p>
+      <p>Known for: Scoring</p>
+    </div>
+    <div class="player-card">
+      <h3>Aazil</h3>
+      <p>Position: Striker</p>
+      <p>Known for: Assisting</p>
+    </div>
+    <div class="player-card">
+      <h3>Humaid</h3>
+      <p>Position: Midfielder</p>
+      <p>Known for: Vision</p>
+    </div>
+    <div class="player-card">
+      <h3>Hussain</h3>
+      <p>Position: Midfielder</p>
+      <p>Known for: Power Shot</p>
+    </div>
+    <div class="player-card">
+      <h3>Benson</h3>
+      <p>Position: Midfielder</p>
+      <p>Known for: Cross</p>
+    </div>
+    <div class="player-card">
+      <h3>Shammas</h3>
+      <p>Position: Defender</p>
+      <p>Known for: High Pressing</p>
+    </div>
+    <div class="player-card">
+      <h3>Rudranch</h3>
+      <p>Position: Defender</p>
+      <p>Known for: Speed Tackles</p>
+    </div>
+    <div class="player-card">
+      <h3>Hassan</h3>
+      <p>Position: Defender</p>
+      <p>Known for: Blocking</p>
+    </div>
+    <div class="player-card">
+      <h3>Oshal</h3>
+      <p>Position: Defender</p>
+      <p>Known for: Cutting Attacks</p>
+    </div>
+    <div class="player-card">
+      <h3>Nuwair</h3>
+      <p>Position: Goalkeeper</p>
+      <p>Known for: Great Wall of China</p>
+    </div>
   </div>
 </section>
 
@@ -127,3 +154,5 @@
 
 </body>
 </html>
+![Uploading 80c6ed6e-d50e-4c5d-8a99-5fd246136b77.png…]()
+
